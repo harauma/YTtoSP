@@ -6,7 +6,7 @@ import ffmpeg from 'fluent-ffmpeg';
 
 const BASE_URL = 'https://www.youtube.com/watch?v=';
 
-const YOUTUBE_ID = 'zL1W6Z2JroM';
+const YOUTUBE_ID = '';
 
 const url = `${BASE_URL}${YOUTUBE_ID}`;
 
@@ -16,7 +16,7 @@ const saveDir = path.join(userHome, 'Music/Spotify');
 
 const inputFilePath = `${YOUTUBE_ID}.mp4`;
 
-/* MP3ファイルのアーティスト名 */
+/* MP3ファイルの曲名 */
 const MP3_TITLE = ''
 
 /* MP3ファイルのアーティスト名 */
