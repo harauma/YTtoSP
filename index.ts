@@ -40,7 +40,7 @@ video.on('end', () => {
     console.log(stdout);
     console.log(stderr);
     // DLしたMP4ファイル削除
-    fs.unlink(inputFilePath,(error) => {
+    fs.unlink(inputFilePath,　(error) => {
       if (error) {
         console.log(error)
         return;
